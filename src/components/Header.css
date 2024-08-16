@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    list-style: none;  
+    background-color: black; 
+    margin: 0;
+    padding: 10px; 
+}
+
+.header div > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header div > ul > li{
+    /*float:left;*/
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.barMenu {
+    border-right: 1px solid white;
+    padding: 5px;
+}
+
+.menuLeft{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonSignIn{
+    background-color: green;
+    color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+.textWhiteBold{
+    font-weight: bold;
+    font-size: 20px;
+}

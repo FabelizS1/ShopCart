@@ -1,0 +1,174 @@
+/*.itemInfo {
+    border: 3px solid white;
+    padding: 10px;
+}*/
+
+.itemsDisplay {
+    /*display: flex;
+    flex-direction: row;*/
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+    gap:6px;
+    place-content: center;
+    background-color: black;
+}
+
+.itemsDisplay > div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(21, 21, 21);
+}
+
+.itemsDisplayTwo{
+    display: flex;
+    flex-direction: row;   
+}
+
+.itemsDisplayTwoBetween{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between
+}
+
+
+/*
+.container {
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+  }
+*/
+
+
+.container{
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  .pagination {
+    list-style: none;
+    height: 31.5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    cursor: pointer;
+  }
+  
+  
+  .pagination li {
+    border: 1px solid #1e50ff;
+    padding: 3px;
+  }
+  
+  .active {
+    background-color: #1e50ff;
+    border-radius: 50%;
+  }
+  
+  .page-item {
+    list-style: none;
+    padding: 2px 12px;
+    height: 31.5px;
+    width: 31.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+  }
+
+
+
+  .imgDiv{
+    height: 50%;
+  }
+
+
+  .textGray{
+    color: rgb(42, 42, 42);
+  }
+
+
+
+
+
+
+  .buttonSignAdd{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.buttonInStock{
+    border: 1px solid green;
+    color: green;
+    border-radius: 5px;
+}
+
+
+.buttonPower{
+    border: 3px solid green;
+    color: green;
+    border-radius: 50%;
+}
+
+.textBold2{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.textLight{
+    font-size: 15px;
+}
+
+.inputLittle{
+    width: 20%;
+    height: 20%;
+}
+
+.rightItem{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.flexColumn > div > ul {
+    
+}
+.flexColumn > div > ul > li {
+    color: green;
+    position: relative;
+    left:-20px
+    
+}
+
+
+.textWhite{
+    color: white;
+    font-size: 10px;
+}
